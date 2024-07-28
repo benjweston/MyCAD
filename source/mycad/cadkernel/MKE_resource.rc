@@ -1,0 +1,392 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "MKE_resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icons
+//
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menus
+//
+
+ID_SHORTCUT_COORDINATES MENU
+BEGIN
+	POPUP "Coordinates"
+	BEGIN
+		MENUITEM "Relative", ID_SHORTCUT_COORDINATES_RELATIVE
+		MENUITEM "Absolute", ID_SHORTCUT_COORDINATES_ABSOLUTE
+		MENUITEM "Geographic", ID_SHORTCUT_COORDINATES_GEOGRAPHIC
+		MENUITEM "Specific", ID_SHORTCUT_COORDINATES_SPECIFIC
+	END
+END
+
+ID_SHORTCUT_GRID MENU
+BEGIN
+	POPUP "Grid"
+	BEGIN
+		MENUITEM "Grid Settings...", ID_SHORTCUT_GRID_SETTINGS
+	END
+END
+
+ID_SHORTCUT_SNAPMODE MENU
+BEGIN
+	POPUP "Snap Mode"
+	BEGIN
+		MENUITEM "Polar Snap", ID_SHORTCUT_SNAPMODE_POLARSNAP
+		MENUITEM "Grid Snap", ID_SHORTCUT_SNAPMODE_GRIDSNAP, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Snap Settings...", ID_SHORTCUT_SNAPMODE_SETTINGS
+	END
+END
+
+ID_SHORTCUT_INFERCONSTRAINTS MENU
+BEGIN
+	POPUP "Infer Constraints"
+	BEGIN
+		MENUITEM "Infer Constraints Settings...", ID_SHORTCUT_INFERCONSTRAINTS_SETTINGS
+	END
+END
+
+ID_SHORTCUT_DYNAMICINPUT MENU
+BEGIN
+	POPUP "Dynamic Input"
+	BEGIN
+		MENUITEM "Dynamic Input Settings...", ID_SHORTCUT_DYNAMICINPUT_SETTINGS
+	END
+END
+
+ID_SHORTCUT_CUSTOMIZATION MENU
+BEGIN
+	POPUP "Customization"
+	BEGIN
+		MENUITEM "Coordinates", ID_SHORTCUT_CUSTOMIZATION_COORDINATES, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Model or Paper space", ID_SHORTCUT_CUSTOMIZATION_MODELSPACE, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Grid", ID_SHORTCUT_CUSTOMIZATION_GRID, CHECKED
+		MENUITEM "Snap Mode", ID_SHORTCUT_CUSTOMIZATION_SNAPMODE, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Infer Constraints", ID_SHORTCUT_CUSTOMIZATION_INFERCONSTRAINTS
+		MENUITEM SEPARATOR
+		MENUITEM "Dynamic Input", ID_SHORTCUT_CUSTOMIZATION_DYNAMICINPUT, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Ortho Mode", ID_SHORTCUT_CUSTOMIZATION_ORTHOMODE, CHECKED
+		MENUITEM "Polar Tracking", ID_SHORTCUT_CUSTOMIZATION_POLARTRACKING, CHECKED
+		MENUITEM "Isometric Drafting", ID_SHORTCUT_CUSTOMIZATION_ISOMETRICDRAFTING, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Object Snap Tracking", ID_SHORTCUT_CUSTOMIZATION_OBJECTSNAPTRACKING, CHECKED
+		MENUITEM "2D Object Snap", ID_SHORTCUT_CUSTOMIZATION_2DOBJECTSNAP, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Lineweight", ID_SHORTCUT_CUSTOMIZATION_LINEWEIGHT, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Transparency", ID_SHORTCUT_CUSTOMIZATION_TRANSPARENCY
+		MENUITEM SEPARATOR
+		MENUITEM "Selection Cycling", ID_SHORTCUT_CUSTOMIZATION_SELECTIONCYCLING, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "3D Object Snap", ID_SHORTCUT_CUSTOMIZATION_3DOBJECTSNAP, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Dynamic UCS", ID_SHORTCUT_CUSTOMIZATION_DYNAMICUCS, CHECKED
+		MENUITEM "Selection Filtering", ID_SHORTCUT_CUSTOMIZATION_SELECTIONFILTERING
+		MENUITEM "Gizmo", ID_SHORTCUT_CUSTOMIZATION_GIZMO
+		MENUITEM SEPARATOR
+		MENUITEM "Annotation Visibility", ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONVISIBILITY, CHECKED
+		MENUITEM "AutoScale", ID_SHORTCUT_CUSTOMIZATION_AUTOSCALE, CHECKED
+		MENUITEM "Annotation Scale", ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONSCALE, CHECKED
+		MENUITEM SEPARATOR
+		MENUITEM "Workspace Switching", ID_SHORTCUT_CUSTOMIZATION_WORKSPACESWITCHING
+		MENUITEM SEPARATOR
+		MENUITEM "Annotation Monitor", ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONMONITIOR
+		MENUITEM SEPARATOR
+		MENUITEM "Units", ID_SHORTCUT_CUSTOMIZATION_UNITS
+		MENUITEM SEPARATOR
+		MENUITEM "Quick Properties", ID_SHORTCUT_CUSTOMIZATION_QUICKPROPERTIES
+		MENUITEM SEPARATOR
+		MENUITEM "Lock UI", ID_SHORTCUT_CUSTOMIZATION_LOCKUI
+		MENUITEM SEPARATOR
+		MENUITEM "Isolate Objects", ID_SHORTCUT_CUSTOMIZATION_ISOLATEOBJECTS
+		MENUITEM SEPARATOR
+		MENUITEM "Graphics Performance", ID_SHORTCUT_CUSTOMIZATION_GRAPHICSPERFORMANCE
+		MENUITEM SEPARATOR
+		MENUITEM "Clean Screen", ID_SHORTCUT_CUSTOMIZATION_CLEANSCREEN
+	END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerators
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+IDD_WINDOW_WINDOWS DIALOGEX 0, 0, 195, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Windows"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+	DEFPUSHBUTTON "&OK", IDOK, 131, 215, 50, 14, WS_GROUP
+END
+
+
+IDD_HELP_HELP DIALOGEX 0, 0, 195, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MyCAD 2023 - Help"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+	DEFPUSHBUTTON "&OK", IDOK, 131, 215, 50, 14, WS_GROUP
+END
+
+IDD_HELP_ABOUT DIALOGEX 0, 0, 195, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MyCAD 2023"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+	DEFPUSHBUTTON "&OK", IDOK, 131, 215, 50, 14, WS_GROUP
+	GROUPBOX "GL Library", IDC_GL_GROUPBOX, 7, 6, 180, 109
+	GROUPBOX "GLU Library", IDC_GLU_GROUPBOX, 7, 120, 180, 88
+	LISTBOX IDC_GL_LIST_EXTENSIONS, 59, 52, 122, 56, LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+	LTEXT "Extensions :", IDC_GL_TEXT_EXTENSIONS, 13, 50, 39, 8
+	LTEXT "Extensions :", IDC_GLU_TEXT_EXTENSIONS, 13, 142, 39, 8
+	LISTBOX IDC_GLU_LIST_EXTENSIONS, 59, 146, 122, 54, LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+	LTEXT "Company :", IDC_GL_TEXT_COMPANY, 17, 18, 35, 8
+	LTEXT "Intel", IDC_GL_TEXT_COMPANYNAME, 55, 18, 34, 8
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"MKE_resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"#include ""windows.h""\r\n"
+"#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Tables
+//
+
+STRINGTABLE
+BEGIN
+	ID_DEFAULTDIRECTORY																				"C:\\Users\\BEN\\Documents\\MyCAD\\My Projects\\"
+	//ID_DEFAULTDOCUMENTNAME																			"Drawing"
+	ID_DEFAULTDOCUMENTNAME																			"Untitled"
+	ID_DEFAULTFILETYPE																				".dwg"
+	ID_DEFAULTOPENFILETITLE																			"Open DWG/DXF File"
+END
+
+STRINGTABLE
+BEGIN
+	ID_2DMODELSPACE																					"2D Model space"
+	ID_SHEETLAYOUT																					"Sheet/Layout"
+	ID_3DPARALLELPROJECTION																			"3D parallel projection"
+	ID_3DPERSPECTIVEPROJECTION																		"3D perspective projection"
+	ID_BLOCKEDITOR																					"Block editor"
+	ID_COMMANDLINE																					"Command line"
+	ID_PLOTPREVIEW																					"Plot preview"
+END
+
+STRINGTABLE
+BEGIN
+	ID_UNIFORMBACKGROUND																			"2D Model space"
+	ID_PAPERBACKGROUND																				"Paper background"
+	ID_TOPOFSKYBACKGROUND																			"Top of sky background"
+	ID_BACKGROUNDSKYHORIZON																			"Background sky horizon"
+	ID_BACKGROUNDGROUNDORIGIN																		"Background ground origin"
+	ID_BACKGROUNDGROUNDHORIZON																		"Background ground horizon"
+	ID_BOTTOMOFEARTHBACKGROUND																		"Bottom of earth background"
+	ID_BACKGROUNDEARTHHORIZON																		"Background earth horizon"
+	ID_CROSSHAIRS																					"Crosshairs"
+	ID_VIEWPORTCONTROL																				"Viewport control"
+END
+
+STRINGTABLE
+BEGIN
+	IDC_TOOLBAR_FILE_NEW																			"New"
+	IDC_TOOLBAR_FILE_OPEN																			"Open"
+	IDC_TOOLBAR_FILE_SAVE																			"Save"
+END
+
+STRINGTABLE
+BEGIN
+	IDC_TOOLBAR_DRAW_LINE																			"Line"
+	IDC_TOOLBAR_DRAW_RAY																			"Ray"
+	IDC_TOOLBAR_DRAW_XLINE																			"Construction Line"
+	IDC_TOOLBAR_DRAW_POLYLINE																		"Polyline"
+	IDC_TOOLBAR_DRAW_POLYGON																		"Polygon"
+	IDC_TOOLBAR_DRAW_RECTANGLE																		"Rectangle"
+	IDC_TOOLBAR_DRAW_ARC																			"Arc"
+	IDC_TOOLBAR_DRAW_CIRCLE																			"Circle"
+	IDC_TOOLBAR_DRAW_SPLINE																			"Spline"
+	IDC_TOOLBAR_DRAW_ELLIPSE																		"Ellipse"
+	IDC_TOOLBAR_DRAW_ELLIPSE_ARC																	"Elliptical Arc"
+	IDC_TOOLBAR_DRAW_POINT_SINGLE																	"Point"
+	IDC_TOOLBAR_DRAW_REVISION_CLOUD																	"Revision Cloud"
+END
+
+STRINGTABLE
+BEGIN
+	ID_PERSPECTIVE																					"Perspective"
+	ID_ORTHOGRAPHIC																					"Orthographic"
+END
+
+STRINGTABLE
+BEGIN
+	ID_STATUSBAR_COORDINATES_TITLE																	"Drawing Coordinates"
+	ID_STATUSBAR_MODELSPACE_TITLE																	""
+	ID_STATUSBAR_GRID_TITLE																			"Display drawing grid"
+	ID_STATUSBAR_SNAPMODE_TITLE																		"Snap mode"
+	ID_STATUSBAR_INFERCONSTRAINTS_TITLE																"Infer Constraints"
+	ID_STATUSBAR_DYNAMICINPUT_TITLE																	"Dynamic Input"
+	ID_STATUSBAR_DYNAMICINPUT_ON_TITLE																"Dynamic Input - On"
+	ID_STATUSBAR_DYNAMICINPUT_OFF_TITLE																"Dynamic Input - Off"
+	ID_STATUSBAR_ORTHOMODE_TITLE																	"Restrict cursor orthogonally"
+	ID_STATUSBAR_POLARTRACKING_TITLE																"Restrict cursor to specified angles"
+	ID_STATUSBAR_ISOMETRICDRAFTING_TITLE															"Isometric Drafting"
+	ID_STATUSBAR_OBJECTSNAPTRACKING_TITLE															"Show snapping reference lines"
+	ID_STATUSBAR_2DOBJECTSNAP_TITLE																	"Snap cursor to 2D reference points"
+	ID_STATUSBAR_LINEWEIGHT_TITLE																	"Show/Hide Lineweight"
+	ID_STATUSBAR_TRANSPARENCY_TITLE																	"Transparency"
+	ID_STATUSBAR_SELECTIONCYCLING_TITLE																"Selection Cycling"
+	ID_STATUSBAR_3DOBJECTSNAP_TITLE																	"Snap cursor to 3D reference points"
+	ID_STATUSBAR_DYNAMICUCS_TITLE																	"Snap UCS to active solids plane"
+	ID_STATUSBAR_SELECTIONFILTERING_TITLE															"Filters object selection"
+	ID_STATUSBAR_GIZMO_TITLE																		""
+	ID_STATUSBAR_ANNOTATIONVISIBILITY_TITLE															""
+	ID_STATUSBAR_AUTOSCALE_TITLE																	""
+	ID_STATUSBAR_ANNOTATIONSCALE_TITLE																"Annotation scale of the current view"
+	ID_STATUSBAR_WORKSPACESWITCHING_TITLE															"Workspace Switching"
+	ID_STATUSBAR_ANNOTATIONMONITIOR_TITLE															"Annotation Monitor"
+	ID_STATUSBAR_UNITS_TITLE																		"Current drawing units"
+	ID_STATUSBAR_QUICKPROPERTIES_TITLE																"Quick Properties"
+	ID_STATUSBAR_LOCKUI_TITLE																		"Lock User Interface"
+	ID_STATUSBAR_ISOLATEOBJECTS_TITLE																""
+	ID_STATUSBAR_GRAPHICSPERFORMANCE_TITLE															"Hardware acceleration"
+	ID_STATUSBAR_CLEANSCREEN_TITLE																	"Clean Screen"
+	ID_STATUSBAR_CUSTOMIZATION_TITLE																""
+END
+
+STRINGTABLE
+BEGIN
+	ID_STATUSBAR_COORDINATES_TEXT																	"COORDS (Ctrl + I)"
+	ID_STATUSBAR_MODELSPACE_TEXT																	"Model or Paper space"
+	ID_STATUSBAR_GRID_TEXT																			"GRIDMODE (F7)"
+	ID_STATUSBAR_SNAPMODE_TEXT																		"SNAPMODE (F9)"
+	ID_STATUSBAR_INFERCONSTRAINTS_TEXT																"CONSTRAINTINFER"
+	ID_STATUSBAR_DYNAMICINPUT_TEXT																	"DYNMODE"
+	ID_STATUSBAR_ORTHOMODE_TEXT																		"ORTHOMODE (F8)"
+	ID_STATUSBAR_POLARTRACKING_TEXT																	"Polar Tracking (F10)"
+	ID_STATUSBAR_ISOMETRICDRAFTING_TEXT																"ISODRAFT"
+	ID_STATUSBAR_OBJECTSNAPTRACKING_TEXT															"Object Snap Tracking - AUTOSNAP (F11)"
+	ID_STATUSBAR_2DOBJECTSNAP_TEXT																	"Object Snap - OSNAP (F3)"
+	ID_STATUSBAR_LINEWEIGHT_TEXT																	"LWDISPLAY"
+	ID_STATUSBAR_TRANSPARENCY_TEXT																	"TRANSPARENCYDISPLAY"
+	ID_STATUSBAR_SELECTIONCYCLING_TEXT																"SELECTIONCYCLING"
+	ID_STATUSBAR_3DOBJECTSNAP_TEXT																	"3D Object Snap - 3DOSNAP (F4)"
+	ID_STATUSBAR_DYNAMICUCS_TEXT																	"Dynamic UCS - UCSDETECT (F6)"
+	ID_STATUSBAR_SELECTIONFILTERING_TEXT															"SUBOBJSELECTIONMODE"
+	ID_STATUSBAR_GIZMO_TEXT																			"Show gizmos"
+	ID_STATUSBAR_ANNOTATIONVISIBILITY_TEXT															"Show annotation objects"
+	ID_STATUSBAR_AUTOSCALE_TEXT																		"Add scales to annotative objects when the annotation scale changes"
+	ID_STATUSBAR_ANNOTATIONSCALE_TEXT																"Click to adjust scale"
+	ID_STATUSBAR_WORKSPACESWITCHING_TEXT															"WSCURRENT"
+	ID_STATUSBAR_ANNOTATIONMONITIOR_TEXT															"ANNOMONITOR"
+	ID_STATUSBAR_UNITS_TEXT																			"UNITS"
+	ID_STATUSBAR_QUICKPROPERTIES_TEXT																"QPMODE"
+	ID_STATUSBAR_LOCKUI_TEXT																		"LOCKUI"
+	ID_STATUSBAR_ISOLATEOBJECTS_TEXT																"Isolate Objects"
+	ID_STATUSBAR_GRAPHICSPERFORMANCE_TEXT															"GRAPHICSCONFIG"
+	ID_STATUSBAR_CLEANSCREEN_TEXT																	"CLEANSCREEN - Ctrl + 0"
+	ID_STATUSBAR_CUSTOMIZATION_TEXT																	"Customization"
+END
+
+STRINGTABLE
+BEGIN
+	ID_SHORTCUT_CUSTOMIZATION_COORDINATES																	"Coordinates"
+	ID_SHORTCUT_CUSTOMIZATION_MODELSPACE																	"Model or Paper space"
+	ID_SHORTCUT_CUSTOMIZATION_GRID																			"Grid"
+	ID_SHORTCUT_CUSTOMIZATION_SNAPMODE																		"Snap Mode"
+	ID_SHORTCUT_CUSTOMIZATION_INFERCONSTRAINTS																"Infer Constraints"
+	ID_SHORTCUT_CUSTOMIZATION_DYNAMICINPUT																	"Dynamic Input"
+	ID_SHORTCUT_CUSTOMIZATION_ORTHOMODE																		"Ortho Mode"
+	ID_SHORTCUT_CUSTOMIZATION_POLARTRACKING																	"Polar Tracking"
+	ID_SHORTCUT_CUSTOMIZATION_ISOMETRICDRAFTING																"Isometric Drafting"
+	ID_SHORTCUT_CUSTOMIZATION_OBJECTSNAPTRACKING															"Object Snap Tracking"
+	ID_SHORTCUT_CUSTOMIZATION_2DOBJECTSNAP																	"2D Object Snap"
+	ID_SHORTCUT_CUSTOMIZATION_LINEWEIGHT																	"Lineweight"
+	ID_SHORTCUT_CUSTOMIZATION_TRANSPARENCY																	"Transparency"
+	ID_SHORTCUT_CUSTOMIZATION_SELECTIONCYCLING																"Selection Cycling"
+	ID_SHORTCUT_CUSTOMIZATION_3DOBJECTSNAP																	"3D Object Snap"
+	ID_SHORTCUT_CUSTOMIZATION_DYNAMICUCS																	"Dynamic UCS"
+	ID_SHORTCUT_CUSTOMIZATION_SELECTIONFILTERING															"Selection Filtering"
+	ID_SHORTCUT_CUSTOMIZATION_GIZMO																			"Gizmo"
+	ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONVISIBILITY															"Annotation Visibility"
+	ID_SHORTCUT_CUSTOMIZATION_AUTOSCALE																		"AutoScale"
+	ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONSCALE																"Annotation Scale"
+	ID_SHORTCUT_CUSTOMIZATION_WORKSPACESWITCHING															"Workspace Switching"
+	ID_SHORTCUT_CUSTOMIZATION_ANNOTATIONMONITIOR															"Annotation Monitor"
+	ID_SHORTCUT_CUSTOMIZATION_UNITS																			"Units"
+	ID_SHORTCUT_CUSTOMIZATION_QUICKPROPERTIES																"Quick Properties"
+	ID_SHORTCUT_CUSTOMIZATION_LOCKUI																		"Lock UI"
+	ID_SHORTCUT_CUSTOMIZATION_ISOLATEOBJECTS																"Isolate Objects"
+	ID_SHORTCUT_CUSTOMIZATION_GRAPHICSPERFORMANCE															"Graphics Performance"
+	ID_SHORTCUT_CUSTOMIZATION_CLEANSCREEN																	"Clean Screen"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+//#include "source\mycad\editors\interface\interface.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

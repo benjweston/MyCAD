@@ -1,0 +1,716 @@
+<Root>
+  <ThreeDCOrbit>
+    <Advanced>
+      <ID>10010</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DCORBIT"</CommandDisplayName>
+      <Macro>"'_3dcorbit"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Rotates the view in 3D space with continuous motion"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDCOrbit>
+  <ThreeDDistance>
+    <Advanced>
+      <ID>10020</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DDISTANCE"</CommandDisplayName>
+      <Macro>"'_3ddistance"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Starts the 3DORBIT command and makes objects appear closer or further away"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDDistance>
+  <ThreeDFly>
+    <Advanced>
+      <ID>10030</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DFLY"</CommandDisplayName>
+      <Macro>"'_3dfly"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Changes the 3D view in a drawing interactively to create the appearance of flying around the model"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDFly>
+  <ThreeDFOrbit>
+    <Advanced>
+      <ID>10040</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DFORBIT"</CommandDisplayName>
+      <Macro>"'_3DFOrbit"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Rotates the view in 3D space without constraining roll"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDFOrbit>
+  <ThreeDO>
+    <Advanced>
+      <ID>10050</ID>
+    </Advanced>
+    <Command>
+      <Alias>"3DO"</Alias>
+      <CommandDisplayName>"3DORBIT"</CommandDisplayName>
+      <Macro>"'_3dorbit"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Controls the interactive viewing of objects in 3D"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDO>
+  <ThreeDOrbit>
+    <Advanced>
+      <ID>10060</ID>
+    </Advanced>
+    <Command>
+      <Alias>"ORBIT"</Alias>
+      <CommandDisplayName>"3DORBIT"</CommandDisplayName>
+      <Macro>"'_3dorbit"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Controls the interactive viewing of objects in 3D"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDOrbit>
+  <ThreeDPoly>
+    <Advanced>
+      <ID>10070</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DPOLY"</CommandDisplayName>
+      <Macro>"'_3dpoly"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a 3D polyline"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDPoly>
+  <ThreeDSwivel>
+    <Advanced>
+      <ID>10080</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"3DSWIVEL"</CommandDisplayName>
+      <Macro>"'_3dswivel"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Starts the 3DSWIVEL command and simulates the effect of turning the camera"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDSwivel>
+  <ThreeDWalk>
+    <Advanced>
+      <ID>10090</ID>
+    </Advanced>
+    <Command>
+      <Alias>"3DW"</Alias>
+      <CommandDisplayName>"3DWALK"</CommandDisplayName>
+      <Macro>"_3dwalk"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Changes the 3D view in a drawing interactively to create the appearance of walking through the model"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ThreeDWalk>
+  <About>
+    <Advanced>
+      <ID>10100</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"ABOUT"</CommandDisplayName>
+      <Macro>"_about"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Displays information about this product"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </About>
+  <Arc>
+    <Advanced>
+      <ID>10110</ID>
+    </Advanced>
+    <Command>
+      <Alias>"A"</Alias>
+      <CommandDisplayName>"ARC"</CommandDisplayName>
+      <Macro>"_arc"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates an arc using 3 points"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Arc>
+  <Cancel>
+    <Advanced>
+      <ID>10120</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>""</CommandDisplayName>
+      <Macro>"*Cancel"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>""</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Cancel>
+  <Circle>
+    <Advanced>
+      <ID>10130</ID>
+    </Advanced>
+    <Command>
+      <Alias>"C"</Alias>
+      <CommandDisplayName>"CIRCLE"</CommandDisplayName>
+      <Macro>"_circle"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a circle using a centre point and a radius"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Circle>
+  <DYNINFOTIPS>
+    <Advanced>
+      <ID>10140</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"DYNINFOTIPS"</CommandDisplayName>
+      <Macro>"DYNINFOTIPS"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Controls whether tips are displayed for using Shift and Ctrl when editing with grips."</Tooltip>
+      <Description>"This setting is on the Dynamic Input tab in the Drafting Settings dialog box."</Description>
+    </Command>
+  </DYNINFOTIPS>
+  <DYNMODE>
+    <Advanced>
+      <ID>10150</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"DYNMODE"</CommandDisplayName>
+      <Macro>"DYNMODE"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Turns Dynamic Input features on and off."</Tooltip>
+      <Description>"0    All Dynamic Input features, including dynamic prompts, off
+                    1    Pointer input on
+                    2    Dimensional input on
+                    3    Both pointer input and dimensional input on"</Description>
+    </Command>
+  </DYNMODE>
+  <DYNPROMPT>
+    <Advanced>
+      <ID>10160</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"DYNPROMPT"</CommandDisplayName>
+      <Macro>"DYNPROMPT"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Controls display of prompts in Dynamic Input tooltips."</Tooltip>
+      <Description>"The DYNMODE system variable turns Dynamic Input features on and off. When DYNMODE is
+                    set to 0 (off), prompts are not displayed regardless of the DYNPROMPT setting."</Description>
+    </Command>
+  </DYNPROMPT>
+  <DSettings>
+    <Advanced>
+      <ID>10170</ID>
+    </Advanced>
+    <Command>
+      <Alias>"DS"</Alias>
+      <CommandDisplayName>"DSETTINGS"</CommandDisplayName>
+      <Macro>"'_dsettings"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Sets grid and snap, polar and object snap tracking, object snap modes, Dynamic Input, and Quick Properties."</Tooltip>
+      <Description>"The Drafting Settings dialog box is displayed."</Description>
+    </Command>
+  </DSettings>
+  <Ellipse>
+    <Advanced>
+      <ID>10180</ID>
+    </Advanced>
+    <Command>
+      <Alias>"EL"</Alias>
+      <CommandDisplayName>"ELLIPSE"</CommandDisplayName>
+      <Macro>"_ellipse"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates an ellipse with a specified centre point"</Tooltip>
+      <Description>""</Description>
+  </Command>
+  </Ellipse>
+  <Exit>
+    <Advanced>
+      <ID>10190</ID>
+    </Advanced>
+    <Command>
+      <Alias>"EXIT"</Alias>
+      <CommandDisplayName>"QUIT"</CommandDisplayName>
+      <Macro>"_quit"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Quits the application; prompts to save documents"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Exit>
+  <Getvar>
+    <Advanced>
+      <ID>10200</ID>
+    </Advanced>
+    <Command>
+      <Alias>"GET"</Alias>
+      <CommandDisplayName>"GETVAR"</CommandDisplayName>
+      <Macro>"_getvar"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Lists or retrieves the values of system variables"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Getvar>
+  <Helix>
+    <Advanced>
+      <ID>10210</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"HELIX"</CommandDisplayName>
+      <Macro>"_helix"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a 2D spiral or 3D spring"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Helix>
+  <INPUTSEARCHDELAY>
+    <Advanced>
+      <ID>10220</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"INPUTSEARCHDELAY"</CommandDisplayName>
+      <Macro>""</Macro>
+      <Prompts>
+        <Prompts_01>"Enter new value for INPUTSEARCHDELAY"</Prompts_01>
+      </Prompts>
+      <Tooltip>"Sets the number of milliseconds to delay before the command line suggestion list is displayed &lt;300&gt;."</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </INPUTSEARCHDELAY>
+  <Layer>
+    <Advanced>
+      <ID>10230</ID>
+    </Advanced>
+    <Command>
+      <Alias>"LA"</Alias>
+      <CommandDisplayName>"LAYER"</CommandDisplayName>
+      <Macro>"'_Layer"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Manages layers and layer properties"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Layer>
+  <Layout>
+    <Advanced>
+      <ID>10240</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"LAYOUT"</CommandDisplayName>
+      <Macro>"Switching to: "</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates and modifies drawing layout tabs"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Layout>
+  <Line>
+    <Advanced>
+      <ID>10250</ID>
+    </Advanced>
+    <Command>
+      <Alias>"L"</Alias>
+      <CommandDisplayName>"LINE"</CommandDisplayName>
+      <Macro>"_line"</Macro>
+      <Prompts>
+        <Prompt_01>"Specify first point:"</Prompt_01>
+        <Prompt_02>"Specify next point:"</Prompt_02>
+      </Prompts>
+      <Tooltip>"Creates straight line segments"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Line>
+  <Options>
+    <Advanced>
+      <ID>10260</ID>
+    </Advanced>
+    <Command>
+      <Alias>"OP"</Alias>
+      <CommandDisplayName>"OPTIONS"</CommandDisplayName>
+      <Macro>"_options"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Customizes settings"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Options>
+  <MSpace>
+    <Advanced>
+      <ID>10270</ID>
+    </Advanced>
+    <Command>
+      <Alias>"MS"</Alias>
+      <CommandDisplayName>"MSPACE"</CommandDisplayName>
+      <Macro>"_.MSpace"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Switches from paper space to a model space viewport"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </MSpace>
+  <Pan>
+    <Advanced>
+      <ID>10280</ID>
+    </Advanced>
+    <Command>
+      <Alias>"P"</Alias>
+      <CommandDisplayName>"PAN"</CommandDisplayName>
+      <Macro>"'_pan"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Pan scene"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Pan>
+  <PERSPECTIVE>
+    <Advanced>
+      <ID>10290</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"PERSPECTIVE"</CommandDisplayName>
+      <Macro>"PERSPECTIVE"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Specifies whether the current viewport displays a perspective view."</Tooltip>
+      <Description>"0  Perspective view turned off
+                    1  Perspective view turned on"</Description>
+    </Command>
+  </PERSPECTIVE>
+  <Point>
+    <Advanced>
+      <ID>10300</ID>
+    </Advanced>
+    <Command>
+      <Alias>"PO"</Alias>
+      <CommandDisplayName>"POINT"</CommandDisplayName>
+      <Macro>"'_point"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates multiple point objects"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Point>
+  <PLine>
+    <Advanced>
+      <ID>10310</ID>
+    </Advanced>
+    <Command>
+      <Alias>"PL"</Alias>
+      <CommandDisplayName>"PLINE"</CommandDisplayName>
+      <Macro>"'_pline"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a 2D polyline"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </PLine>
+  <Polyline>
+    <Advanced>
+      <ID>10320</ID>
+    </Advanced>
+    <Command>
+      <Alias>"POLYLINE"</Alias>
+      <CommandDisplayName>"PLINE"</CommandDisplayName>
+      <Macro>"'_pline"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a 2D polyline"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Polyline>
+  <Polygon>
+    <Advanced>
+      <ID>10330</ID>
+    </Advanced>
+    <Command>
+      <Alias>"POL"</Alias>
+      <CommandDisplayName>"POLYGON"</CommandDisplayName>
+      <Macro>"'_polygon"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates an equilateral closed polyline"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Polygon>
+  <PSpace>
+    <Advanced>
+      <ID>10340</ID>
+    </Advanced>
+    <Command>
+      <Alias>"PS"</Alias>
+      <CommandDisplayName>"PSPACE"</CommandDisplayName>
+      <Macro>"_.PSpace"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Switches from a model space viewport to paper space"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </PSpace>
+  <Quit>
+    <Advanced>
+      <ID>10350</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"QUIT"</CommandDisplayName>
+      <Macro>"_quit"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Quits the application; prompts to save documents"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Quit>
+  <Ray>
+    <Advanced>
+      <ID>10360</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"RAY"</CommandDisplayName>
+      <Macro>"_ray"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a line that starts at a point and continues to infinity"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Ray>
+  <Rectangle>
+    <Advanced>
+      <ID>10370</ID>
+    </Advanced>
+    <Command>
+      <Alias>"REC"</Alias>
+      <CommandDisplayName>"RECTANG"</CommandDisplayName>
+      <Macro>"_rectang"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a rectangular polyline"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Rectangle>
+  <Select>
+    <Advanced>
+      <ID>10380</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"SELECT"</CommandDisplayName>
+      <Macro>"_select"</Macro>
+      <Prompts>
+        <Prompts_01>"Specify opposite corner or [Fence/WPolygon/CPolygon]"</Prompts_01>
+        <Prompts_02>"Window Lasso  Press Spacebar to cycle options"</Prompts_02>
+      </Prompts>
+      <Tooltip>""</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Select>
+  <Setvar>
+    <Advanced>
+      <ID>10390</ID>
+    </Advanced>
+    <Command>
+      <Alias>"SET"</Alias>
+      <CommandDisplayName>"SETVAR"</CommandDisplayName>
+      <Macro>"_setvar"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Lists or changes the values of system variables"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Setvar>
+  <Spline>
+    <Advanced>
+      <ID>10400</ID>
+    </Advanced>
+    <Command>
+      <Alias>"SPL"</Alias>
+      <CommandDisplayName>"SPLINE"</CommandDisplayName>
+      <Macro>"_spline"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a smooth curves that passes through or near specified points"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Spline>
+  <TILEMODE>
+    <Advanced>
+      <ID>10410</ID>
+    </Advanced>
+    <Command>
+      <Alias>"TI"</Alias>
+      <CommandDisplayName>"TILEMODE"</CommandDisplayName>
+      <Macro>"TILEMODE"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Determines whether the Model tab or the most-recently accessed named layout tab is active."</Tooltip>
+      <Description>"0  Enables access to paper space and makes the most-recently accessed layout current
+                    1  Disables paper space and makes model space current"</Description>
+    </Command>
+  </TILEMODE>
+  <Units>
+    <Advanced>
+      <ID>10420</ID>
+    </Advanced>
+    <Command>
+      <Alias>"UN"</Alias>
+      <CommandDisplayName>"UNITS"</CommandDisplayName>
+      <Macro>"'_units"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Controls the displayed precision and format for coordinates and angles"</Tooltip>
+      <Description>""</Description>
+      <Description>"The format, precision, and other conventions to be used in
+                    displaying coordiantes, distances, and angles are set and saved in
+                    drawing template files. These settings can also be changed in the
+                    current drawing file"</Description>
+    </Command>
+  </Units>
+  <UCSIcon>
+    <Advanced>
+      <ID>10430</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"UCSICON"</CommandDisplayName>
+      <Macro>"_ucsicon"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Manages display of UCS icon"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </UCSIcon>
+  <UCSManager>
+    <Advanced>
+      <ID>10440</ID>
+    </Advanced>
+    <Command>
+      <Alias>"UC"</Alias>
+      <CommandDisplayName>"UCSMAN"</CommandDisplayName>
+      <Macro>"_+ucsman"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Manages defined user coordinate systems"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </UCSManager>
+  <Unknown>
+    <Advanced>
+      <ID>10450</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"UNKNOWN"</CommandDisplayName>
+      <Macro>"_unknown"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>""</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Unknown>
+  <ViewManager>
+    <Advanced>
+      <ID>10460</ID>
+    </Advanced>
+    <Command>
+      <Alias>"V"</Alias>
+      <CommandDisplayName>"VIEW"</CommandDisplayName>
+      <Macro>"_view"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Saves and restores named views, camera views, layout views and preset views"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </ViewManager>
+  <View>
+    <Advanced>
+      <ID>10470</ID>
+    </Advanced>
+    <Command>
+      <Alias>"-V"</Alias>
+      <CommandDisplayName>"-VIEW"</CommandDisplayName>
+      <Macro>"_-view"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Sets views"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </View>
+  <VPorts>
+    <Advanced>
+      <ID>10480</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"VPORTS"</CommandDisplayName>
+      <Macro>"_vports"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Displays the Viewports dialog box"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </VPorts>
+  <VPorts>
+    <Advanced>
+      <ID>10490</ID>
+    </Advanced>
+    <Command>
+      <Alias>""</Alias>
+      <CommandDisplayName>"-VPORTS"</CommandDisplayName>
+      <Macro>"_-vports"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Displays the Viewports dialog box"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </VPorts>
+  <VSCurrent>
+    <Advanced>
+      <ID>10500</ID>
+    </Advanced>
+    <Command>
+      <Alias>"VS"</Alias>
+      <CommandDisplayName>"VSCURRENT"</CommandDisplayName>
+      <Macro>"_vscurrent"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Sets the visual style in the current viewport"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </VSCurrent>
+  <Xline>
+    <Advanced>
+      <ID>10510</ID>
+    </Advanced>
+    <Command>
+      <Alias>"XL"</Alias>
+      <CommandDisplayName>"XLINE"</CommandDisplayName>
+      <Macro>"'_xline"</Macro>
+      <Prompts></Prompts>
+      <Tooltip>"Creates a line of infinite length"</Tooltip>
+      <Description>""</Description>
+    </Command>
+  </Xline>
+  <Zoom>
+    <Advanced>
+      <ID>10520</ID>
+    </Advanced>
+    <Command>
+      <Alias>"Z"</Alias>
+      <CommandDisplayName>"ZOOM"</CommandDisplayName>
+      <Macro>"'_zoom"</Macro>
+      <Prompts>
+        <Prompts_01>"Press ESC or ENTER to exit, or right-click to display shortcut menu."</Prompts_01>
+      </Prompts>
+      <Tooltip>"Increases or decreases the magnification of the view in the current viewport"</Tooltip>
+      <Description>""</Description>
+     </Command>
+  </Zoom>
+</Root>

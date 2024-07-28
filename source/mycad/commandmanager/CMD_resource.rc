@@ -1,0 +1,190 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "CMD_resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icons
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menus
+//
+
+ID_CONTEXT_MENU_VIEW MENU
+BEGIN
+	POPUP "View"
+	BEGIN
+		MENUITEM "Exit", ID_CONTEXT_VIEW_EXIT
+		MENUITEM SEPARATOR
+		MENUITEM "Pan", ID_CONTEXT_VIEW_PAN
+		MENUITEM "Zoom", ID_CONTEXT_VIEW_ZOOM
+		MENUITEM "3D Orbit", ID_CONTEXT_VIEW_3DORBIT
+		MENUITEM SEPARATOR
+		MENUITEM "Zoom Window", ID_CONTEXT_VIEW_ZOOM_WINDOW
+		MENUITEM "Zoom Original", ID_CONTEXT_VIEW_ZOOM_ORIGINAL
+		MENUITEM "Zoom Extents", ID_CONTEXT_VIEW_ZOOM_EXTENTS
+	END
+END
+
+ID_CONTEXT_MENU_ORBIT MENU
+BEGIN
+	POPUP "Orbit"
+	BEGIN
+		MENUITEM "E&xit", ID_CONTEXT_ORBIT_EXIT
+		MENUITEM SEPARATOR
+		MENUITEM "Current Mode:", ID_CONTEXT_ORBIT_CURRENT_MODE
+		POPUP "&Other Navigation Modes"
+		BEGIN
+			MENUITEM "&Constrained Orbit\t1", ID_CONTEXT_ORBIT_CONSTRAINED_ORBIT
+			MENUITEM "&Free Orbit\t2", ID_CONTEXT_ORBIT_FREE_ORBIT
+			MENUITEM "Continuous &Orbit\t3", ID_CONTEXT_ORBIT_CONTINUOUS_ORBIT
+			MENUITEM SEPARATOR
+			MENUITEM "Adjust &Distance\t4", ID_CONTEXT_ORBIT_ADJUST_DISTANCE
+			MENUITEM "&Swivel\t5", ID_CONTEXT_ORBIT_SWIVEL
+			MENUITEM SEPARATOR
+			MENUITEM "&Walk\t6", ID_CONTEXT_ORBIT_WALK
+			MENUITEM "F&ly\t7", ID_CONTEXT_ORBIT_FLY
+			MENUITEM SEPARATOR
+			MENUITEM "&Zoom\t8", ID_CONTEXT_ORBIT_ZOOM
+			MENUITEM "&Pan\t9", ID_CONTEXT_ORBIT_PAN
+		END
+		MENUITEM SEPARATOR
+		MENUITEM "Enable Orbit Auto &Target", ID_CONTEXT_ORBIT_ENABLE_ORBIT_AUTO_TARGET
+		MENUITEM SEPARATOR
+		MENUITEM "&Animation AppData::Settings...", ID_CONTEXT_ORBIT_ANIMATION_SETTINGS
+		MENUITEM SEPARATOR
+		MENUITEM "Zoom &Window", ID_CONTEXT_ORBIT_ZOOM_WINDOW
+		MENUITEM "Zoom &Extents", ID_CONTEXT_ORBIT_ZOOM_EXTENTS
+		MENUITEM "Zoom Previous", ID_CONTEXT_ORBIT_ZOOM_PREVIOUS
+		MENUITEM SEPARATOR
+		MENUITEM "P&arallel", ID_CONTEXT_ORBIT_ORTHOGRAPHIC
+		MENUITEM "&Perspective", ID_CONTEXT_ORBIT_PERSPECTIVE
+		MENUITEM SEPARATOR
+		MENUITEM "&Reset View", ID_CONTEXT_ORBIT_RESET_VIEWS
+		POPUP "Pre&set Views"
+		BEGIN
+			MENUITEM "&Top", ID_CONTEXT_ORBIT_PRESET_VIEWS_TOP
+			MENUITEM "&Bottom", ID_CONTEXT_ORBIT_PRESET_VIEWS_BOTTOM
+			MENUITEM "&Front", ID_CONTEXT_ORBIT_PRESET_VIEWS_FRONT
+			MENUITEM "Bac&k", ID_CONTEXT_ORBIT_PRESET_VIEWS_BACK
+			MENUITEM "&Left", ID_CONTEXT_ORBIT_PRESET_VIEWS_LEFT
+			MENUITEM "&Right", ID_CONTEXT_ORBIT_PRESET_VIEWS_RIGHT
+			MENUITEM SEPARATOR
+			MENUITEM "S&W Isometric", ID_CONTEXT_ORBIT_PRESET_VIEWS_SWISOMETRIC
+			MENUITEM "S&E Isometric", ID_CONTEXT_ORBIT_PRESET_VIEWS_SEISOMETRIC
+			MENUITEM "&NE Isometric", ID_CONTEXT_ORBIT_PRESET_VIEWS_NEISOMETRIC
+			MENUITEM "NW &Isometric", ID_CONTEXT_ORBIT_PRESET_VIEWS_NWISOMETRIC
+		END
+		MENUITEM "&Named Views", ID_CONTEXT_ORBIT_NAMED_VIEWS
+		MENUITEM SEPARATOR
+		POPUP "&Visual Styles"
+		BEGIN
+			MENUITEM "2D Wireframe", ID_CONTEXT_ORBIT_VISUAL_STYLES_2DWIREFRAME
+			MENUITEM SEPARATOR
+			MENUITEM "Wireframe", ID_CONTEXT_ORBIT_VISUAL_STYLES_3DWIREFRAME
+			MENUITEM "2D Hidden", ID_CONTEXT_ORBIT_VISUAL_STYLES_2DHIDDEN
+			MENUITEM "Hidden", ID_CONTEXT_ORBIT_VISUAL_STYLES_3DHIDDEN
+			MENUITEM "Realistic", ID_CONTEXT_ORBIT_VISUAL_STYLES_REALISTIC
+			MENUITEM "Conceptual", ID_CONTEXT_ORBIT_VISUAL_STYLES_CONCEPTUAL
+			MENUITEM "Shaded", ID_CONTEXT_ORBIT_VISUAL_STYLES_SHADED
+			MENUITEM "Shaded with Edges", ID_CONTEXT_ORBIT_VISUAL_STYLES_SHADEDWITHEDGES
+			MENUITEM "Shades of Grey", ID_CONTEXT_ORBIT_VISUAL_STYLES_SHADESOFGREY
+			MENUITEM "Sketchy", ID_CONTEXT_ORBIT_VISUAL_STYLES_SKETCHY
+			MENUITEM "X-Ray", ID_CONTEXT_ORBIT_VISUAL_STYLES_XRAY
+		END
+		POPUP "V&isual Aids"
+		BEGIN
+			MENUITEM "&Compass", ID_CONTEXT_ORBIT_VISUALAIDS_COMPASS
+			POPUP "&Grid"
+			BEGIN
+				MENUITEM "On", ID_CONTEXT_ORBIT_VISUALAIDS_GRID
+				MENUITEM SEPARATOR
+				MENUITEM "XY plane", ID_CONTEXT_ORBIT_VISUALAIDS_GRID_XY
+				MENUITEM "YZ plane", ID_CONTEXT_ORBIT_VISUALAIDS_GRID_YZ
+				MENUITEM "ZX plane", ID_CONTEXT_ORBIT_VISUALAIDS_GRID_ZX
+			END
+			MENUITEM "&UCS Icon", ID_CONTEXT_ORBIT_VISUALAIDS_UCSICON
+		END
+	END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerators
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"CMD_resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"#include ""windows.h""\r\n"
+"#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Tables
+//
+
+STRINGTABLE
+BEGIN
+	ID_COMMAND_CLASS																			"COMMAND_CLASS"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

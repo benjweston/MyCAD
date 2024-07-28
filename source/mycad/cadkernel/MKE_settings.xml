@@ -1,0 +1,18 @@
+<Root>
+  <UCSIcon>
+    <Style>1</Style>
+    <LineWidth>1</LineWidth>
+    <Size>50</Size>
+    <ModelspaceIconColour>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>0</Blue>
+      <ApplySingleColour>1</ApplySingleColour>
+    </ModelspaceIconColour>
+    <LayoutTabIconColour>
+      <Red>0</Red>
+      <Green>0</Green>
+      <Blue>255</Blue>
+    </LayoutTabIconColour>
+  </UCSIcon>
+</Root>

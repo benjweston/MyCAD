@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\intern">
+      <UniqueIdentifier>{cd71424a-9f3e-479e-996a-5bfb40222ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\intern">
+      <UniqueIdentifier>{59286362-7e4b-4acf-839f-24f33f3cba37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drw_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drw_classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drw_entities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drw_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drw_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drw_objects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libdwgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libdxfrw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_cptable932.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_cptable936.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_cptable949.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_cptable950.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_cptables.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_dbg.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\drw_textcodec.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgbuffer.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader15.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader18.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader21.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader24.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgreader27.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dwgutil.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dxfreader.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\dxfwriter.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\iconv.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+    <ClInclude Include="intern\rscodec.h">
+      <Filter>Header Files\intern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="drw_classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drw_entities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drw_header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drw_objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libdwgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libdxfrw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\drw_dbg.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\drw_textcodec.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgbuffer.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader15.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader18.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader21.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader24.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgreader27.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dwgutil.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dxfreader.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\dxfwriter.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+    <ClCompile Include="intern\rscodec.cpp">
+      <Filter>Source Files\intern</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MKE_application.h" />
+    <ClInclude Include="MKE_commonfiledialog.h" />
+    <ClInclude Include="MKE_mdi_application.h" />
+    <ClInclude Include="MKE_resource.h" />
+    <ClInclude Include="MKE_sdi_application.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MKE_application.cpp" />
+    <ClCompile Include="MKE_commonfiledialog.cpp" />
+    <ClCompile Include="MKE_mdi_application.cpp" />
+    <ClCompile Include="MKE_sdi_application.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MKE_resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MKE_settings.xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{442b8d82-1ce3-4dae-a605-e8f10bd7c46c}</ProjectGuid>
+    <RootNamespace>mccadkernel</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;PROJDIR="$(ProjectDir).";SOLDIR="$(SolutionDir).";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\libdxfrw;$(SolutionDir)extern\libobjrw;$(SolutionDir)extern\tinyxml;$(SolutionDir)intern\charutil;$(SolutionDir)intern\debug;$(SolutionDir)intern\regutil;$(SolutionDir)intern\winerr;$(SolutionDir)intern\xmlutil;$(SolutionDir)source\mycad\cadlib;$(SolutionDir)source\mycad\commandmanager;$(SolutionDir)source\mycad\draw;$(SolutionDir)source\mycad\dockingmanager;$(SolutionDir)source\mycad\documentmanager;$(SolutionDir)source\mycad\font;$(SolutionDir)source\mycad\mycaddata;$(SolutionDir)source\mycad\system;$(SolutionDir)source\mycad\windowmanager;$(SolutionDir)source\mycad\editors\dialogs;$(SolutionDir)source\mycad\editors\palettes;$(SolutionDir)source\mycad\editors\windows;$(SolutionDir)source\mycad\io\io_common;$(SolutionDir)source\mycad\gui\opengl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;PROJDIR="$(ProjectDir).";SOLDIR="$(SolutionDir).";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\libdxfrw;$(SolutionDir)extern\libobjrw;$(SolutionDir)extern\tinyxml;$(SolutionDir)intern\charutil;$(SolutionDir)intern\debug;$(SolutionDir)intern\regutil;$(SolutionDir)intern\winerr;$(SolutionDir)intern\xmlutil;$(SolutionDir)source\mycad\cadlib;$(SolutionDir)source\mycad\commandmanager;$(SolutionDir)source\mycad\draw;$(SolutionDir)source\mycad\dockingmanager;$(SolutionDir)source\mycad\documentmanager;$(SolutionDir)source\mycad\font;$(SolutionDir)source\mycad\mycaddata;$(SolutionDir)source\mycad\system;$(SolutionDir)source\mycad\windowmanager;$(SolutionDir)source\mycad\editors\dialogs;$(SolutionDir)source\mycad\editors\palettes;$(SolutionDir)source\mycad\editors\windows;$(SolutionDir)source\mycad\io\io_common;$(SolutionDir)source\mycad\gui\opengl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;PROJDIR="$(ProjectDir).";SOLDIR="$(SolutionDir).";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\libdxfrw;$(SolutionDir)extern\libobjrw;$(SolutionDir)extern\tinyxml;$(SolutionDir)intern\charutil;$(SolutionDir)intern\debug;$(SolutionDir)intern\regutil;$(SolutionDir)intern\winerr;$(SolutionDir)intern\xmlutil;$(SolutionDir)source\mycad\cadlib;$(SolutionDir)source\mycad\commandmanager;$(SolutionDir)source\mycad\draw;$(SolutionDir)source\mycad\dockingmanager;$(SolutionDir)source\mycad\documentmanager;$(SolutionDir)source\mycad\font;$(SolutionDir)source\mycad\mycaddata;$(SolutionDir)source\mycad\system;$(SolutionDir)source\mycad\windowmanager;$(SolutionDir)source\mycad\editors\dialogs;$(SolutionDir)source\mycad\editors\palettes;$(SolutionDir)source\mycad\editors\windows;$(SolutionDir)source\mycad\io\io_common;$(SolutionDir)source\mycad\gui\opengl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;PROJDIR="$(ProjectDir).";SOLDIR="$(SolutionDir).";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)extern\libdxfrw;$(SolutionDir)extern\libobjrw;$(SolutionDir)extern\tinyxml;$(SolutionDir)intern\charutil;$(SolutionDir)intern\debug;$(SolutionDir)intern\regutil;$(SolutionDir)intern\winerr;$(SolutionDir)intern\xmlutil;$(SolutionDir)source\mycad\cadlib;$(SolutionDir)source\mycad\commandmanager;$(SolutionDir)source\mycad\draw;$(SolutionDir)source\mycad\dockingmanager;$(SolutionDir)source\mycad\documentmanager;$(SolutionDir)source\mycad\font;$(SolutionDir)source\mycad\mycaddata;$(SolutionDir)source\mycad\system;$(SolutionDir)source\mycad\windowmanager;$(SolutionDir)source\mycad\editors\dialogs;$(SolutionDir)source\mycad\editors\palettes;$(SolutionDir)source\mycad\editors\windows;$(SolutionDir)source\mycad\io\io_common;$(SolutionDir)source\mycad\gui\opengl</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

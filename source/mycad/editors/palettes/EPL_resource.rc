@@ -1,0 +1,108 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "EPL_resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icons
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menus
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerators
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialogs
+//
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE
+BEGIN
+"EPL_resource.h\0"
+END
+
+2 TEXTINCLUDE
+BEGIN
+"#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"#include ""windows.h""\r\n"
+"#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+"\0"
+END
+
+3 TEXTINCLUDE
+BEGIN
+"\r\n"
+"\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Tables
+//
+
+STRINGTABLE
+BEGIN
+	ID_LAYER_PROPERTIES_MANAGER_CLASS																"LAYER_CLASS"
+	ID_LAYER_PROPERTIES_MANAGER_NAME																"Layer Properties Manager"
+END
+
+STRINGTABLE
+BEGIN
+	ID_LAYERS_STATUS																				"Status"
+	ID_LAYERS_NAME																					"Name"
+	ID_LAYERS_ON																					"On"
+	ID_LAYERS_FREEZE																				"Freeze"
+	ID_LAYERS_LOCK																					"Lock"
+	ID_LAYERS_COLOUR																				"Colour"
+	ID_LAYERS_LINETYPE																				"Linetype"
+	ID_LAYERS_LINEWEIGHT																			"Lineweight"
+	ID_LAYERS_TRANSPARENCY																			"Transparency"
+	ID_LAYERS_NEWVPFREEZE																			"New VP Freeze"
+	ID_LAYERS_DESCRIPTION																			"Description"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

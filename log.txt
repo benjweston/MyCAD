@@ -1,0 +1,608 @@
+===== Log started at 2024-07-28, 16:16:38. =====
+
+16:16:38  Log::System::createSystem() SingleDocuments
+16:16:38  Log::System::System()
+16:16:38  Log::WindowManager::WindowManager()
+16:16:38  Log::DocumentManager::DocumentManager()
+16:16:38  Log::SystemWin32::SystemWin32()
+16:16:38  Log::SystemWin32::s_bfnMonitorEnumProc() Rect = { 0, 0, 1600, 870 }
+16:16:38  Log::SystemWin32::s_bfnMonitorEnumProc() Rect = { -1440, 0, 0, 870 }
+16:16:38  Log::SDISystemWin32::SDISystemWin32(HINSTANCE hInstance)
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::Application::Application()
+16:16:38  Log::Application::getCrosshairsize nCrosshairsize =  5
+16:16:38  Log::Application::getOptions f3Colour = { 255, 255, 255 }
+16:16:38  Log::Application::getOptions f3Colour = { 138, 138, 138 }
+16:16:38  Log::Application::getOptions f3Colour = { 0, 0, 0 }
+16:16:38  Log::Application::getOptions bTintForXYZ = 0,
+16:16:38  Log::Application::getOptions f3Colour = { 33, 40, 48 }
+16:16:38  Log::Application::getOptions f3Colour = { 255, 255, 255 }
+16:16:38  Log::Application::getOptions bTintForXYZ = 1,
+16:16:38  Log::Application::getSettings nStyle =  1
+16:16:38  Log::Application::getSettings nLineWidth =  1
+16:16:38  Log::Application::getSettings Size =  50
+16:16:38  Log::Application::xmlGetOptions f3Colour = { 0, 0, 0 }
+16:16:38  Log::Application::xmlGetOptions f3Colour = { 0, 0, 255 }
+16:16:38  
+16:16:38  Log::Application::xmlGetCommands
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:38  Log::DynamicInputWindow::DynamicInputWindow()
+16:16:38  Log::DynamicInput::DynamicInput()
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:38  Log::DynamicInputWindow::DynamicInputWindow()
+16:16:38  Log::CommandLineWindow::CommandLineWindow()
+16:16:38  Log::TextWindow::TextWindow()
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:38  Log::DynamicInputWindow::DynamicInputWindow()
+16:16:38  Log::CommandLineWindow::CommandLineWindow()
+16:16:38  Log::CommandLine::CommandLine()
+16:16:38  Log::SDIApplication::SDIApplication()
+16:16:38  Log::Application::wm_parentnotify()
+16:16:38  Log::Application::wm_parentnotify() WM_CREATE
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -831
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -831
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:38  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:38  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:38  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:38  Log::Command::getSystemVariable() DYNMODE, 4096
+16:16:38  Log::ErrorHandler() System Error Code: 1814 
+16:16:38  Log::Command::getSystemVariable() DYNPROMPT, -4096
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::CommandManager::CommandManager()
+16:16:38  Log::Document::Document()
+16:16:38  Log::WindowWin32::WindowWin32()
+16:16:38  Log::CommandManager::CommandManager()
+16:16:38  Log::GLRenderWindow::GLRenderWindow()
+16:16:38  Log::LayerManager::LayerManager()
+16:16:38  Log::ViewManager::ViewManager()
+16:16:38  Log::SDIDocument::SDIDocument()
+16:16:38  Log::Drawing::Drawing():[WARNING] Could not open file!
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = 1025
+16:16:38  Log::Application::wm_notify() lpnmhdr->code = -551
+16:16:38  Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_DOCUMENT
+16:16:38  Log::Temporary window class registered for WGL_ARB_pixel_format/WGL_ARB_multisample extensions.
+16:16:39  Log::[WARNING] WGL_ARB_pixel_format and WGL_ARB_multisample are NOT supported.
+16:16:39  Log::[WARNING] MSAA cannot be enabled.
+16:16:39  Log::Pixel Format: 4
+16:16:39  Log::Temporary window for WGL_ARB_pixel_format extension destroyed.
+16:16:39  Log::ErrorHandler() System Error Code: 0 
+16:16:3916:16:39    Log::LayoutManager::LayoutManager()
+Log::GLRenderWindow::wm_size()
+16:16:39  Log::ViewportManager::ViewportManager()
+16:16:39  Log::GLRenderWindow::wm_move()
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::Application::createDocument() TRUE
+16:16:39  Log::MViewport::MViewport()
+16:16:39  Log::ErrorHandler() System Error Code: 0 
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::UIViewport::UIViewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:39  Log::ModelLayout::ModelLayout()
+16:16:39  Log::GLGrid::GLGrid()
+16:16:39  Log::GLControl::GLControl()
+16:16:39  Log::GLPointer::GLPointer()
+16:16:39  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:39  Log::GLControl::GLControl()
+16:16:39  Log::GLUCSIcon::GLUCSIcon()
+16:16:39  Log::ModelSpace::ModelSpace()
+16:16:39  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:39  Log::Document::wm_move()
+16:16:39  Log::Application::wm_parentnotify()
+16:16:39  Log::Application::wm_parentnotify() WM_CREATE
+16:16:39  Log::WindowWin32::setWindowState() WINDOWSTATE_RECT
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:39  Log::DropdownWindow::DropdownWindow()
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:39  DynamicInput::createDropdownWindow(): window valid
+16:16:39  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::Application::wm_activate() WA_INACTIVE
+16:16:39  Log::TextWindow::wm_activate() WA_ACTIVE
+16:16:39  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:39  Log::TextWindow::wm_setfocus()
+16:16:39  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:39  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:39  Log::WindowWin32::setWindowState() WINDOWSTATE_RECT
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:39  Log::DropdownWindow::DropdownWindow()
+16:16:39  Log::WindowWin32::WindowWin32()
+16:16:39  Log::ViewportManager::ViewportManager()
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::MViewport::MViewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::UIViewport::UIViewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::PViewport::PViewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::PaperLayout::PaperLayout(int index Layout1)
+16:16:39  Log::GLGrid::GLGrid()
+16:16:39  Log::GLControl::GLControl()
+16:16:39  Log::GLPointer::GLPointer()
+16:16:39  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:39  Log::Viewport::Viewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::PViewport::PViewport()
+16:16:39  Log::View::View(View *view, unsigned int id)
+16:16:39  Log::PaperSpace::PaperSpace()
+16:16:39  Log::GLControl::GLControl()
+16:16:39  Log::GLUCSIcon::GLUCSIcon()
+16:16:39  Log::MSpace::MSpace()
+16:16:39  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:39  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  DynamicInput::createDropdownWindow(): window valid
+16:16:40  Log::WindowWin32::WindowWin32()
+16:16:40  Log::TextWindow::wm_activate() WA_INACTIVE
+16:16:40  Log::GLGrid::GLGrid()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLPointer::GLPointer()
+16:16:40  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:40  Log::Viewport::Viewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PViewport::PViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PaperSpace::PaperSpace()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLUCSIcon::GLUCSIcon()
+16:16:40  Log::PSpace::PSpace()
+16:16:40  Log::ViewportManager::ViewportManager()
+16:16:4016:16:40    Log::Viewport::Viewport()Log::Application::wm_notify() lpnmhdr->code = -12
+
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::MViewport::MViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::Viewport::Viewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::UIViewport::UIViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:40  Log::Viewport::Viewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PViewport::PViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PaperLayout::PaperLayout(int index Layout2)
+16:16:40  Log::GLGrid::GLGrid()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLPointer::GLPointer()
+16:16:40  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:40  Log::Viewport::Viewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PViewport::PViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PaperSpace::PaperSpace()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLUCSIcon::GLUCSIcon()
+16:16:40  Log::MSpace::MSpace()
+16:16:40  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:40  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  Log::WindowWin32::WindowWin32()
+16:16:40  Log::WindowWin32::WindowWin32()
+16:16:40  Log::CommandLineInputBase::CommandLineInputBase()
+16:16:40  Log::DropdownWindow::DropdownWindow()
+16:16:40  Log::WindowWin32::WindowWin32()
+16:16:40  Log::GLGrid::GLGrid()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLPointer::GLPointer()
+16:16:40  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:40  Log::Viewport::Viewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PViewport::PViewport()
+16:16:40  Log::View::View(View *view, unsigned int id)
+16:16:40  Log::PaperSpace::PaperSpace()
+16:16:40  Log::GLControl::GLControl()
+16:16:40  Log::GLUCSIcon::GLUCSIcon()
+16:16:40  Log::PSpace::PSpace()
+16:16:40  Log::OpenGL version 2.1.0 - Build 8.15.10.2900
+16:16:40  Log::GLSL version 1.20  - Intel Build 8.15.10.2900
+16:16:40  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  DynamicInput::createDropdownWindow(): window valid
+16:16:40  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  Log::GLRenderWindow::wm_activate() WA_ACTIVE
+16:16:40  Log::Drawing[18036]::resume()...........................................................
+16:16:40  Log::ErrorHandler() System Error Code: 0 
+16:16:40  Log::Document::wm_activate() WA_ACTIVE
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:4016:16:40    Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = default
+16:16:40  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:40  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:40  Log::Application::wm_activate() WA_ACTIVE
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -839
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:40  Log::GLRenderWindow::wm_size()
+16:16:40  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:40  Log::Application::wm_notify() lpnmhdr->code = -551
+16:16:40  Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_LAYOUT
+16:16:40  Log::Document::wm_notify() lpnmhdr->code = -551
+16:16:40  Log::Document::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_DOCUMENT
+16:16:41  Log::GLRenderWindow::wm_paint()
+16:16:41  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:41  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:41  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:41  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:41  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:43  Log::Application::wm_parentnotify()
+16:16:43  Log::Application::wm_parentnotify() WM_RBUTTONDOWN
+16:16:43  Log::Application::wm_activate() WA_ACTIVE
+16:16:43  Log::Application::wm_setfocus()
+16:16:44  Log::GLRenderWindow::wm_command() nSource = IDC_DOCUMENT
+16:16:44  Log::GLRenderWindow::wm_command_sendcommand() default
+16:16:44  Log::GLRenderWindow::wm_command_sendcommand_param() Command = IDC_PAN
+16:16:44  Log::WindowWin32::WindowWin32()
+16:16:44  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:44  Log::GLRenderWindow::createCommandWindow() IDOK
+16:16:44  Log::Application::wm_parentnotify()
+16:16:44  Log::Application::wm_parentnotify() WM_LBUTTONDOWN
+16:16:45  Log::Application::wm_parentnotify()
+16:16:45  Log::Application::wm_parentnotify() WM_RBUTTONDOWN
+16:16:46  Log::GLRenderWindow::wm_command_sendcommand() default
+16:16:46  Log::GLRenderWindow::wm_command_sendcommand_param() Command = IDC_3DORBIT
+16:16:46  Log::WindowWin32::WindowWin32()
+16:16:46  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:46  Log::GLRenderWindow::createCommandWindow() IDOK
+16:16:47  Log::Application::wm_parentnotify()
+16:16:47  Log::Application::wm_parentnotify() WM_LBUTTONDOWN
+16:16:48  Log::Application::wm_parentnotify()
+16:16:48  Log::Application::wm_parentnotify() WM_RBUTTONDOWN
+16:16:49  Log::Application::wm_command() default
+16:16:49  Log::Application::wm_command() IDC_SETVAR
+16:16:49  Log::Command::setSystemVariable() PERSPECTIVE, 1
+16:16:50  Log::Application::wm_parentnotify()
+16:16:50  Log::Application::wm_parentnotify() WM_LBUTTONDOWN
+16:16:51  Log::Application::wm_parentnotify()
+16:16:51  Log::Application::wm_parentnotify() WM_RBUTTONDOWN
+16:16:52  Log::Command::wm_char() vkCode = 13
+16:16:52  Log::GLRenderWindow::wm_char() vkCode = 13
+16:16:52  Log::Command::wm_close()
+16:16:52  Log::Command::wm_destroy()
+16:16:52  Log::CommandManager::setObjectInactive() m_lpActiveViewObject = nullptr
+16:16:52  Log::GLRenderWindow::clearCommandTextBuffer() m_pchInputBuf = 
+16:16:52  Log::GLRenderWindow::wm_char() m_pchInputBuf = 
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -19
+16:16:52  Log::Application::wm_notify() NM_TOOLTIPSCREATED
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -19
+16:16:52  Log::Application::wm_notify() NM_TOOLTIPSCREATED
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:52  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -701
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -20
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -16
+16:16:53  Log::Application::wm_notify() NM_RELEASEDCAPTURE
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -702
+16:16:53  Log::Application::wm_command() Message generated by BN_CLICKED (button or menu)
+16:16:53  Log::Application::wm_command() default
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -2
+16:16:53  Log::Application::wm_notify_nm_click_toolbar_File() IDC_TOOLBAR_FILE_NEW
+16:16:53  Log::WindowWin32::WindowWin32()
+16:16:53  Log::CommandManager::CommandManager()
+16:16:53  Log::Document::Document()
+16:16:53  Log::WindowWin32::WindowWin32()
+16:16:53  Log::CommandManager::CommandManager()
+16:16:53  Log::GLRenderWindow::GLRenderWindow()
+16:16:53  Log::LayerManager::LayerManager()
+16:16:53  Log::ViewManager::ViewManager()
+16:16:53  Log::SDIDocument::SDIDocument()
+16:16:53  Log::Drawing::Drawing():[WARNING] Could not open file!
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = 1025
+16:16:53  Log::Application::wm_notify() lpnmhdr->code = -551
+16:16:53  Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_DOCUMENT
+16:16:53  Log::Temporary window class registered for WGL_ARB_pixel_format/WGL_ARB_multisample extensions.
+16:16:53  Log::[WARNING] WGL_ARB_pixel_format and WGL_ARB_multisample are NOT supported.
+16:16:53  Log::[WARNING] MSAA cannot be enabled.
+16:16:53  Log::Pixel Format: 4
+16:16:54  Log::Temporary window for WGL_ARB_pixel_format extension destroyed.
+16:16:54  Log::ErrorHandler() System Error Code: 0 
+16:16:54  Log::GLRenderWindow::wm_size()
+16:16:54  Log::LayoutManager::LayoutManager()16:16:54
+  Log::GLRenderWindow::wm_move()
+16:16:54  Log::ViewportManager::ViewportManager()
+16:16:54  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::Application::createDocument() TRUE
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::ErrorHandler() System Error Code: 0 
+16:16:54  Log::MViewport::MViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::UIViewport::UIViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:54  Log::ModelLayout::ModelLayout()
+16:16:54  Log::GLGrid::GLGrid()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLPointer::GLPointer()
+16:16:54  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLUCSIcon::GLUCSIcon()
+16:16:54  Log::ModelSpace::ModelSpace()
+16:16:54  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:54  Log::Document::wm_move()
+16:16:54  Log::Application::wm_parentnotify()
+16:16:54  Log::Application::wm_parentnotify() WM_CREATE
+16:16:54  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:54  Log::GLRenderWindow::wm_activate() WA_ACTIVE
+16:16:54  Log::Drawing[12064]::resume()...........................................................
+16:16:54  Log::ErrorHandler() System Error Code: 0 
+16:16:54  Log::Document::wm_activate() WA_ACTIVE
+16:16:54  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:54  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:54  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:54  Log::Document::wm_setfocus()
+16:16:54  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:54  Log::GLRenderWindow::wm_paint()
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:54  Log::ViewportManager::ViewportManager()
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::MViewport::MViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::UIViewport::UIViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperLayout::PaperLayout(int index Layout1)
+16:16:54  Log::GLGrid::GLGrid()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLPointer::GLPointer()
+16:16:54  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperSpace::PaperSpace()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLUCSIcon::GLUCSIcon()
+16:16:54  Log::MSpace::MSpace()
+16:16:54  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:54  Log::GLGrid::GLGrid()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLPointer::GLPointer()
+16:16:54  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperSpace::PaperSpace()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLUCSIcon::GLUCSIcon()
+16:16:54  Log::PSpace::PSpace()
+16:16:54  Log::ViewportManager::ViewportManager()
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::MViewport::MViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::UIViewport::UIViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::Layout::Layout(CommandManager *commandmanager, int width, int height)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperLayout::PaperLayout(int index Layout2)
+16:16:54  Log::GLGrid::GLGrid()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLPointer::GLPointer()
+16:16:54  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperSpace::PaperSpace()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLUCSIcon::GLUCSIcon()
+16:16:54  Log::MSpace::MSpace()
+16:16:54  Log::GLText::GLText(const char* fname, const unsigned int textheight)
+16:16:54  Log::GLGrid::GLGrid()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLPointer::GLPointer()
+16:16:54  Log::Space::Space(ViewportManager *viewportmanager, PViewport *ui, PViewport *paper)
+16:16:54  Log::Viewport::Viewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PViewport::PViewport()
+16:16:54  Log::View::View(View *view, unsigned int id)
+16:16:54  Log::PaperSpace::PaperSpace()
+16:16:54  Log::GLControl::GLControl()
+16:16:54  Log::GLUCSIcon::GLUCSIcon()
+16:16:54  Log::PSpace::PSpace()
+16:16:54  Log::OpenGL version 2.1.0 - Build 8.15.10.2900
+16:16:54  Log::GLSL version 1.20  - Intel Build 8.15.10.2900
+16:16:5416:16:54    Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = default
+Log::Document::wm_notify() lpnmhdr->code = -551
+16:16:54  Log::Document::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_DOCUMENT
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -713
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:54  Log::Application::wm_notify() lpnmhdr->code = -12
+16:16:55  Log::Application::wm_notify() lpnmhdr->code = -552
+16:16:55  Log::Application::wm_notify() TCN_SELCHANGING lpnm->idFrom = IDC_TABCTRL_DOCUMENTS
+16:16:55  Log::GLRenderWindow::wm_char() vkCode = 27
+16:16:55  Log::GLRenderWindow::wm_command() nSource = IDC_DOCUMENT
+16:16:55  Log::GLRenderWindow::wm_command_sendcommand() default
+16:16:55  Log::GLRenderWindow::wm_command_sendcommand_param() Command = IDC_CANCEL
+16:16:55  Log::WindowWin32::WindowWin32()
+16:16:55  Log::SystemWin32::createWindow(): window->getValid() == TRUE
+16:16:55  Log::GLRenderWindow::createCommandWindow() IDOK
+16:16:55  Log::GLRenderWindow::clearCommandTextBuffer() m_pchInputBuf = 
+16:16:55  Log::GLRenderWindow::wm_char() m_pchInputBuf = 
+16:16:55  Log::GLRenderWindow::wm_activate() WA_INACTIVE
+16:16:55  Log::Drawing[12064]::suspend()..........................................................
+16:16:55  Log::ErrorHandler() System Error Code: 0 
+16:16:55  Log::Document::wm_activate() WA_INACTIVE
+16:16:55  Log::Application::wm_notify() lpnmhdr->code = -551
+16:16:55  Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_TABCTRL_DOCUMENTS
+16:16:55  Log::GLRenderWindow::wm_activate() WA_ACTIVE
+16:16:55  Log::Drawing[18036]::resume()...........................................................
+16:16:55  Log::ErrorHandler() System Error Code: 0 
+16:16:55  Log::Document::wm_activate() WA_ACTIVE
+16:16:5516:16:55    Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = default
+Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:55  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:55  Log::DynamicInputWindow::wm_notify() TCN_SELCHANGE
+16:16:55  Log::Document::wm_setfocus()
+16:16:55  Log::Application::wm_notify() lpnmhdr->code = -551
+16:16:55  Log::Application::wm_notify() TCN_SELCHANGE lpnm->idFrom = IDC_LAYOUT
+16:16:56  Log::Application::wm_notify() lpnmhdr->code = -2
+16:16:56  Log::GLRenderWindow::wm_paint()
+16:16:58  Log::Application::wm_syscommand() SC_CLOSE
+16:16:58  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:58  Log::WindowWin32::setWindowState() WINDOWSTATE_RECT
+16:16:58  Log::DynamicInput::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::CommandLine::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::WindowWin32::~WindowWin32()
+16:16:58  Log::WindowWin32::~WindowWin32()
+16:16:58  Log::Application::wm_close() WM_CLOSE = 0
+16:16:58  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:58  Log::WindowWin32::setWindowState() WINDOWSTATE_RECT
+16:16:58  Log::DynamicInput::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::CommandLine::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::WindowWin32::~WindowWin32()
+16:16:58  Log::WindowWin32::~WindowWin32()
+16:16:58  Log::Application::wm_close() WM_CLOSE = 0
+16:16:58  Log::WindowWin32::setWindowState() WINDOWSTATE_SCROLLBARS
+16:16:58  Log::DynamicInput::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::DynamicInput::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::Application::wm_activate() WA_INACTIVE
+16:16:58  Log::Application::wm_destroy() m_system->getWindowManager().removeWindow == FALSE
+16:16:58  Log::Application::wm_notify() lpnmhdr->code = -837
+16:16:58  Log::Application::wm_notify() lpnmhdr->code = -838
+16:16:58  Log::Application::wm_notify() lpnmhdr->code = -837
+16:16:58  Log::Application::wm_notify() lpnmhdr->code = -838
+16:16:58  Log::Document::wm_destroy() m_system->getDocumentManager().removeWindow == TRUE
+16:16:58  Log::Document::wm_destroy() m_system->getDocumentManager().removeWindow == TRUE
+
+
+===== END OF LOG =====

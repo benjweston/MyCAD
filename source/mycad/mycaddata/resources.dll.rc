@@ -1,0 +1,146 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resources.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resources.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MYCAD											ICON										"resources\\Icons\\mycad.ico"
+
+IDI_VIEW_VIEWMANAGER_CURRENT						ICON										"resources\\Icons\\ViewManager\\current.ico"
+IDI_VIEW_VIEWMANAGER_MODELVIEWS						ICON										"resources\\Icons\\ViewManager\\modelviews.ico"
+IDI_VIEW_VIEWMANAGER_LAYOUTVIEWS					ICON										"resources\\Icons\\ViewManager\\layoutviews.ico"
+IDI_VIEW_VIEWMANAGER_PRESETVIEWS					ICON										"resources\\Icons\\ViewManager\\presetviews.ico"
+
+IDI_VIEW_3DVIEWS_TOP								ICON										"resources\\Icons\\3DViews\\top.ico"
+IDI_VIEW_3DVIEWS_BOTTOM								ICON										"resources\\Icons\\3DViews\\bottom.ico"
+IDI_VIEW_3DVIEWS_LEFT								ICON										"resources\\Icons\\3DViews\\left.ico"
+IDI_VIEW_3DVIEWS_RIGHT								ICON										"resources\\Icons\\3DViews\\right.ico"
+IDI_VIEW_3DVIEWS_FRONT								ICON										"resources\\Icons\\3DViews\\front.ico"
+IDI_VIEW_3DVIEWS_BACK								ICON										"resources\\Icons\\3DViews\\back.ico"
+IDI_VIEW_3DVIEWS_SWISOMETRIC						ICON										"resources\\Icons\\3DViews\\swisometric.ico"
+IDI_VIEW_3DVIEWS_SEISOMETRIC						ICON										"resources\\Icons\\3DViews\\seisometric.ico"
+IDI_VIEW_3DVIEWS_NEISOMETRIC						ICON										"resources\\Icons\\3DViews\\neisometric.ico"
+IDI_VIEW_3DVIEWS_NWISOMETRIC						ICON										"resources\\Icons\\3DViews\\nwisometric.ico"
+
+IDI_DRAW_POINT_SINGLE								ICON										"resources\\Icons\\Draw\\point.ico"
+
+
+
+IDI_DRAW_LINE										ICON										"resources\\Icons\\Draw\\line.ico"
+IDI_DRAW_RAY										ICON										"resources\\Icons\\Draw\\ray.ico"
+IDI_DRAW_XLINE										ICON										"resources\\Icons\\Draw\\xline.ico"
+
+IDI_DRAW_POLYLINE									ICON										"resources\\Icons\\Draw\\polyline.ico"
+
+IDI_DRAW_POLYGON									ICON										"resources\\Icons\\Draw\\polygon.ico"
+IDI_DRAW_RECTANGLE									ICON										"resources\\Icons\\Draw\\rectangle.ico"
+
+IDI_DRAW_ARC										ICON										"resources\\Icons\\Draw\\arc.ico"
+
+
+IDI_DRAW_CIRCLE										ICON										"resources\\Icons\\Draw\\circle.ico"
+
+
+IDI_DRAW_SPLINE										ICON										"resources\\Icons\\Draw\\spline.ico"
+IDI_DRAW_ELLIPSE									ICON										"resources\\Icons\\Draw\\ellipse.ico"
+
+
+IDI_DRAW_ELLIPSE_ARC								ICON										"resources\\Icons\\Draw\\ellipse_arc.ico"
+IDI_DRAW_REVISION_CLOUD								ICON										"resources\\Icons\\Draw\\revision_cloud.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VIEW_3DVIEWS_TOP								BITMAP										"resources\\Bitmaps\\3DViews\\top.bmp"
+IDB_VIEW_3DVIEWS_BOTTOM								BITMAP										"resources\\Bitmaps\\3DViews\\bottom.bmp"
+IDB_VIEW_3DVIEWS_LEFT								BITMAP										"resources\\Bitmaps\\3DViews\\left.bmp"
+IDB_VIEW_3DVIEWS_RIGHT								BITMAP										"resources\\Bitmaps\\3DViews\\right.bmp"
+IDB_VIEW_3DVIEWS_FRONT								BITMAP										"resources\\Bitmaps\\3DViews\\front.bmp"
+IDB_VIEW_3DVIEWS_BACK								BITMAP										"resources\\Bitmaps\\3DViews\\back.bmp"
+IDB_VIEW_3DVIEWS_SWISOMETRIC						BITMAP										"resources\\Bitmaps\\3DViews\\swisometric.bmp"
+IDB_VIEW_3DVIEWS_SEISOMETRIC						BITMAP										"resources\\Bitmaps\\3DViews\\seisometric.bmp"
+IDB_VIEW_3DVIEWS_NEISOMETRIC						BITMAP										"resources\\Bitmaps\\3DViews\\neisometric.bmp"
+IDB_VIEW_3DVIEWS_NWISOMETRIC						BITMAP										"resources\\Bitmaps\\3DViews\\nwisometric.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Tables
+//
+
+STRINGTABLE
+BEGIN
+    ID_COMPANY_NAME																					"BJW"
+    ID_APPLICATION_CLASS																			"MYCAD"
+    ID_APPLICATION_NAME																				"MyCAD"
+    ID_APPLICATION_RELEASE																			"R2023"
+    ID_APPLICATION_VERSION_NUMBER_MAJOR																"1"
+    ID_APPLICATION_VERSION_NUMBER_MINOR																"0"
+    ID_APPLICATION_VERSION_NUMBER_PATCH																"7"
+    ID_FAKEMENU_CLASS																				"FAKEMENU_CLASS"
+END
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
